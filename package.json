@@ -1,0 +1,23 @@
+{
+  "name": "sundaymatches-monorepo",
+  "version": "1.0.0",
+  "description": "SundayMatches - Fast, Simple & Live Cricket Scoring (Production-Ready MERN)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test:engine": "npm --prefix server test",
+    "server:dev": "npm --prefix server run dev",
+    "client:dev": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "cricket",
+    "live-scoring",
+    "mern",
+    "socket.io",
+    "render",
+    "scorecard"
+  ],
+  "author": "SundayMatches Team",
+  "license": "ISC"
+}
